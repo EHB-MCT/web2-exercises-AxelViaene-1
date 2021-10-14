@@ -1,9 +1,8 @@
 .pokemonList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
 }
 
 .uniquePokemon {
-    flex: auto;
+    flex: 1;
 }
