@@ -27,6 +27,4 @@ function showData(data) {
     document.getElementById('cover').src = coverLink;
     console.log(coverLink);
     document.getElementById('title').innerText = JSON.stringify(data.data.documents[10].titles.en).replace(/^"(.*)"$/, '$1');
-
-
 }
