@@ -1,0 +1,136 @@
+@import "./master.css";
+
+/*---------GRID-----------*/
+
+main {
+    grid-template-rows: 1.5vw 12vw 3vw 23vw 22vw 2vw;
+}
+
+/*---------WEBPAGE-----------*/
+
+.profile_image {
+    display: flex;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    justify-content: center;
+}
+
+.profile_text {
+    display: flex;
+    grid-column: 6/12;
+    grid-row: 2/3;
+}
+
+.profile_text p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14pt;
+}
+
+.profile_text h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+
+.follow_button {
+    display: flex;
+    grid-column: 4/6;
+    grid-row: 3/4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #0a0d11;
+}
+
+.follow_button a {
+    display: flex;
+    text-decoration: none;
+    color: #7699ce;
+    font-size: 1.4vw;
+}
+
+/*---------STATISTICS-----------*/
+
+.stats {
+    display: flex;
+    grid-column: 4/12;
+    grid-row: 4/5;
+    margin-top: 17px;
+    border-radius: 10px;
+    background-color: #0a0d11;
+}
+
+#statistics {
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+#statistics h1 {
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+#statistics p {
+    display: inline;
+    margin: 0;
+    margin-right: 5.5vw;
+}
+
+#avarage_score {
+    margin: 0;
+}
+
+.charts {
+    display: flex;
+}
+
+.chart_left {
+    width: 22vw;
+    margin: 0;
+}
+
+.chart_right {
+    width: 20vw;
+    margin: 0;
+}
+
+#statistics h2 {
+    font-weight: 400;
+    font-size: 12pt;
+    margin-right: 0;
+}
+
+#statistics img {
+    max-width: 10vw;
+    height: auto;
+    margin-right: 1vw;
+}
+
+/*---------STATISTICS-----------*/
+
+.favorites {
+    display: flex;
+    grid-column: 4/12;
+    grid-row: 5/6;
+    background-color: gray;
+}
+
+.favorites_div {
+    padding-left: 50px;
+}
+
+.favorites h1 {
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+.favorites img {
+    max-width: 10vw;
+    height: auto;
+}
+
+.img_favorite {
+    margin-right: 5vw;
+}

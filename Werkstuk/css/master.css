@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #141921;
+    color: #d4e4f9;
+}
+
+/*---------GRID-----------*/
+
+main {
+    display: grid;
+    grid-template-columns: 8.854% repeat(12, 1fr) 8.854%;
+    grid-template-rows: 20vh 80vh;
+    grid-row-gap: 10px;
+    grid-column-gap: 16px;
+    font-family: URW Form;
+}
+
+/*---------NAVIGATION-----------*/
+nav {
+    height: 4.0625vw;
+    background-color: #0a0d11;
+    font-family: nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav_center {
+    height: 4.0625vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_grid {
+    display: grid;
+    grid-template-columns: 8.854% repeat(12, 1fr) 8.854%;
+    grid-column-gap: 16px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d4e4f9;
+}
+
+#webtitle {
+    display: flex;
+    grid-column: 3/4;
+    justify-content: right;
+    font-size: 20pt;
+}
+
+#profile_link {
+    display: flex;
+    grid-column: 7/8;
+    font-size: 18px;
+}
+
+#list_link {
+    display: flex;
+    grid-column: 8/9;
+    font-size: 18px;
+}
+
+#search_field {
+    display: flex;
+    grid-column: 10/12;
+}
+
+#search_field input {
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: none;
+    height: 1.718vw;
+    width: 100%;
+    font-size: 16px;
+}
+
+#logout {
+    display: flex;
+    grid-column: 13/14;
+    font-size: 16px;
+    align-items: center;
+    justify-content: right;
+}
